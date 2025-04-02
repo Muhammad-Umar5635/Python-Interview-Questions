@@ -1,6 +1,6 @@
 # 🚀 TCS Coding Questions - Python Solutions  
 
-This repository contains solutions to common number-based coding problems, useful for technical interviews and assessments like TCS NQT.
+This repository contains solutions to **10 common number-based coding problems**, useful for technical interviews and assessments like TCS NQT.
 
 ## 📌 Features  
 - ✅ Check if a number is an **Armstrong number**  
