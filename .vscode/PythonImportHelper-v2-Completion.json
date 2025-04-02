@@ -1,0 +1,110 @@
+[
+    {
+        "label": "is_armstrong",
+        "kind": 2,
+        "importPath": "Armstrong",
+        "description": "Armstrong",
+        "peekOfCode": "def is_armstrong(n):\n    sum = 0\n    lenght = len(str(n))\n    for i in str(n):\n        sum += int(i)**lenght\n    if sum == n:\n        return True\n    else:\n        return False\nfor i in range(1, User_Input + 1):",
+        "detail": "Armstrong",
+        "documentation": {}
+    },
+    {
+        "label": "n",
+        "kind": 5,
+        "importPath": "Fabonacci",
+        "description": "Fabonacci",
+        "peekOfCode": "n = int(input(\"Enter the number of terms: \"))\na, b = 0, 1\nprint(\"Fabonacci Series:\")\nfor i in range(n):\n    print(a, end=\" \")\n    a , b = b, a + b",
+        "detail": "Fabonacci",
+        "documentation": {}
+    },
+    {
+        "label": "factorial",
+        "kind": 5,
+        "importPath": "Factorial",
+        "description": "Factorial",
+        "peekOfCode": "factorial = 1\nfor i in range(1, User_Input + 1):\n    factorial *= i\nprint(factorial , end=\" \")",
+        "detail": "Factorial",
+        "documentation": {}
+    },
+    {
+        "label": "is_leap",
+        "kind": 2,
+        "importPath": "Leap_Year",
+        "description": "Leap_Year",
+        "peekOfCode": "def is_leap(year):\n    if year % 4 == 0:\n        if year % 100 == 0:\n            if year % 400 == 0:\n                return True\n            else:\n                return False\n        else:\n            return True\n    else:",
+        "detail": "Leap_Year",
+        "documentation": {}
+    },
+    {
+        "label": "is_palindrome",
+        "kind": 2,
+        "importPath": "Palindrome",
+        "description": "Palindrome",
+        "peekOfCode": "def is_palindrome(s):\n    return str(s) == str(s)[::-1]\nresult = is_palindrome(888)\nprint(f\"888 is a palindrome: {result}\")\n# Check if a given input is a polindrome\ndef is_palindrome(s):\n    return s == s[::-1]\nUserInput = input(\"Enter a string: \")\nresult = is_palindrome(UserInput)\nprint(f\"{UserInput} is a palindrome: {result}\")",
+        "detail": "Palindrome",
+        "documentation": {}
+    },
+    {
+        "label": "is_palindrome",
+        "kind": 2,
+        "importPath": "Palindrome",
+        "description": "Palindrome",
+        "peekOfCode": "def is_palindrome(s):\n    return s == s[::-1]\nUserInput = input(\"Enter a string: \")\nresult = is_palindrome(UserInput)\nprint(f\"{UserInput} is a palindrome: {result}\")",
+        "detail": "Palindrome",
+        "documentation": {}
+    },
+    {
+        "label": "result",
+        "kind": 5,
+        "importPath": "Palindrome",
+        "description": "Palindrome",
+        "peekOfCode": "result = is_palindrome(888)\nprint(f\"888 is a palindrome: {result}\")\n# Check if a given input is a polindrome\ndef is_palindrome(s):\n    return s == s[::-1]\nUserInput = input(\"Enter a string: \")\nresult = is_palindrome(UserInput)\nprint(f\"{UserInput} is a palindrome: {result}\")",
+        "detail": "Palindrome",
+        "documentation": {}
+    },
+    {
+        "label": "UserInput",
+        "kind": 5,
+        "importPath": "Palindrome",
+        "description": "Palindrome",
+        "peekOfCode": "UserInput = input(\"Enter a string: \")\nresult = is_palindrome(UserInput)\nprint(f\"{UserInput} is a palindrome: {result}\")",
+        "detail": "Palindrome",
+        "documentation": {}
+    },
+    {
+        "label": "result",
+        "kind": 5,
+        "importPath": "Palindrome",
+        "description": "Palindrome",
+        "peekOfCode": "result = is_palindrome(UserInput)\nprint(f\"{UserInput} is a palindrome: {result}\")",
+        "detail": "Palindrome",
+        "documentation": {}
+    },
+    {
+        "label": "display_pattern",
+        "kind": 2,
+        "importPath": "Patterns",
+        "description": "Patterns",
+        "peekOfCode": "def display_pattern(height):\n    for i in range(1, height + 1):\n        spaces = ' ' * (height - i)\n        hashes = '#' * (2 * i - 1)\n        print(spaces + hashes)\n    for i in range(height - 1, 0, -1):\n        spaces = ' ' * (height - i)\n        hashes = '#' * (2 * i - 1)\n        print(spaces + hashes)\nif __name__ == \"__main__\":",
+        "detail": "Patterns",
+        "documentation": {}
+    },
+    {
+        "label": "is_perfect_square",
+        "kind": 2,
+        "importPath": "Perfect_Square",
+        "description": "Perfect_Square",
+        "peekOfCode": "def is_perfect_square():\n    while True:\n        try:\n            num = int(input(\"Enter a number: \"))\n            if num < 0:\n                raise ValueError\n            if num**0.5 == int(num**0.5):\n                print(f\"{num} is a perfect square.\")\n            else:\n                print(f\"{num} is not a perfect square.\")",
+        "detail": "Perfect_Square",
+        "documentation": {}
+    },
+    {
+        "label": "is_prime",
+        "kind": 2,
+        "importPath": "Prime_Number",
+        "description": "Prime_Number",
+        "peekOfCode": "def is_prime(n):\n    if n <= 1:\n        return False\n    for i in range(2, int(n**0.5) + 1):\n        if n % i == 0:\n            return False\n    return True\ntry:\n    num = int(input(\"Enter a number: \"))\n    if is_prime(num):",
+        "detail": "Prime_Number",
+        "documentation": {}
+    }
+]
